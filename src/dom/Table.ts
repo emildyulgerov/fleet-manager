@@ -8,7 +8,6 @@ export class Table {
         private identify?: (records: any[], id: any) => any,
         records?: any[]
     ) {
-      //  this.element.replaceChildren();
         if (records) {
             this.records = records;
         }

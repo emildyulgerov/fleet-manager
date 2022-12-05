@@ -12,10 +12,6 @@ import { TruckService } from "./data/TruckService";
 const table = document.querySelector('.overview') as HTMLTableElement;
 const tableController = new Table(table, createRow);
 
-const form = document.querySelector('form');
-//const formEditor = new Editor(form, onSubmit());
-
-
 
 const testStorage = new myStorage();
 const carStorage = new Collection(testStorage, 'cars');

@@ -1,6 +1,5 @@
 import { CarService } from "./data/CarService";
 import { Car, Truck } from "./data/models";
-import { VehicleService } from "./data/Service";
 import { TruckService } from "./data/TruckService";
 import { tr, td, button } from "./dom/dom";
 import { Table } from "./dom/Table";

@@ -4,7 +4,7 @@ import { myStorage } from "./data/Storage";
 import { Editor } from "./dom/Editor";
 import { Table } from "./dom/Table";
 import { createCarRow, hydrate, identifyCar } from "./util";
-import { Car } from "./data/models";
+
 
 
 //initialize the connection with the 'storage' (in this case - localStorage, but could be changed easily)

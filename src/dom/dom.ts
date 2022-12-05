@@ -42,11 +42,3 @@ export const span: ElementFactory<HTMLSpanElement> = dom.bind(null, 'span');
 export const strong: ElementFactory<HTMLElement> = dom.bind(null, 'strong');
 
 
-// <h3>Opel Corsa</h3>
-//             <div class="details">
-//                 <p><span class="col">ID:</span><strong id="id">0076-5b58</strong></p>
-//                 <p><span class="col">Body type:</span><strong id="bodyType">Hatchback</strong></p>
-//                 <p><span class="col" id="capacity">Seats:</span><strong id="numberOfSeats">4</strong></p>
-//                 <p id="gearboxContainer"><span class="col">Transmission:</span><strong id="transmission">Manual</strong></p>
-//                 <p><span class="col">Rental price:</span><strong id="rentalPrice">$55/day</strong></p>
-//             </div>
