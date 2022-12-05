@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fleet Manager</title>
     <link rel="stylesheet" href="/static/site.css">
+    <script src="/dist/trucks.bundle.js" type="module"></script>
 </head>
 
 <body>
@@ -21,12 +22,12 @@
         </header>
 
         <section class="editor">
-            <button class="action new">Add New Truck</button>
+            <button class="action new" id="addBtn">Add New Truck</button>
         </section>
 
-        <section class="editor">
+        <section class="editor" id="sectionAdd">
             <h3>New Truck</h3>
-            <form class="align">
+            <form class="align" id="add-truck">
                 <label>
                     <span>Make</span>
                     <input type="text" name="make">
@@ -63,9 +64,12 @@
             </form>
         </section>
 
-        <section class="editor">
+        <section class="editor" id="sectionEdit">
             <h3>Edit Truck</h3>
-            <form class="align">
+            <form class="align" id="edit-truck">
+                <label>
+                    <input type="hidden" name="id">
+                </label>
                 <label>
                     <span>Make</span>
                     <input type="text" name="make">
@@ -117,7 +121,7 @@
                         <th>Control</th>
                     </tr>
                 </thead>
-                <tbody>
+                <!-- <tbody>
                     <tr>
                         <td>3af4-ca05</td>
                         <td>Iveco</td>
@@ -142,7 +146,7 @@
                             <button class="action delete">Delete</button>
                         </td>
                     </tr>
-                </tbody>
+                </tbody> -->
             </table>
         </main>
     </div>
